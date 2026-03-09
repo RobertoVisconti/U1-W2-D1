@@ -12,24 +12,31 @@ REGOLE
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-
+//Indica il tipo di valore che una variabile può contenere. Per esempio se prendiamo una ciotola e gli mettiamo la farina, il datatype va a indicare che la ciotola ( variabile) contiene la farina.
 /* ESERCIZIO 2
  Crea una variable chiamata "myName" e assegna ad essa il tuo nome, sotto forma di stringa.
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+const myName = "Roberto"
+console.log (myName)
 
 /* ESERCIZIO 3
  Scrivi il codice necessario ad effettuare un addizione (una somma) dei numeri 12 e 20.
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+//let a = 12 
+//let b = 20
+function somma (a,b) {return a + b}
+console.log (somma (12,20))
 
 /* ESERCIZIO 4
  Crea una variable di nome "x" e assegna ad essa il numero 12.
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+let x = 12
 
 /* ESERCIZIO 5
   Riassegna un nuovo valore alla variabile "myName" già esistente: il tuo cognome.
@@ -37,12 +44,16 @@ REGOLE
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+//myName = "Visconti"
+//console.log (myName)
 
 /* ESERCIZIO 6
  Esegui una sottrazione tra i numeri 4 e la variable "x" appena dichiarata (che contiene il numero 12).
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+let z = 4
+console.log (z - x)
 
 /* ESERCIZIO 7
  Crea due variabili: "name1" e "name2". Assegna a name1 la stringa "john", e assegna a name2 la stringa "John" (con la J maiuscola!).
@@ -51,3 +62,8 @@ REGOLE
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+let name1 = "john"
+let name2 = "John"
+console.log (name1 === name2)
+
+console.log (name1.toLowerCase () === name2.toLowerCase () )
